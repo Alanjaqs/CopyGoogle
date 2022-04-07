@@ -1,0 +1,129 @@
+@media (min-width: 821px) {
+
+    .navbar-sectionOne img {
+        display: none;
+    }
+
+    .navbar-sectionOne p:nth-child(1n+2) {
+        display: none;
+    }
+
+    .navbar-sectionOne {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .navbar-sectionTwo p {
+        font-weight: 300;
+        font-size: 1.5rem;
+        padding-right: 4rem;
+        padding-top: 2rem;
+        cursor: pointer;
+    }
+
+    .navbar-sectionTwo p:hover {
+        color: rgb(32, 99, 186);
+        text-decoration: underline rgb(32, 99, 186);
+    }
+
+    .navbar-sectionTwo img {
+        block-size: 4rem;
+        inline-size: 5rem;
+        margin-top: 1rem;
+        margin-right: 1rem;
+        cursor: pointer;
+    }
+
+    .main-section {
+        margin-top: 3rem;
+    }
+
+    .main-section figure img {
+        block-size: 10rem;
+    }
+
+    .input-search {
+        block-size: 5.5rem;
+        inline-size: 65rem;
+        border-radius: 4rem;
+    }
+
+    .glass-icon {
+        inset-inline-end: 30rem;
+        inset-block-end: 3.7rem;
+    }
+
+    .mic-icon {
+        inset-inline-start: 30rem;
+        inset-block-end: 6.2rem;
+        cursor: pointer;
+    }
+
+    .buttons {
+        position: relative;
+        inset-block-end: 4rem;
+    }
+
+   .buttons-input {
+       background-color: rgb(245, 245, 245);
+       block-size: 4rem;
+       inline-size: 20rem;
+       border: none;
+       font-size: 1.5rem;
+       margin-top: 2rem;
+       margin-right: 2rem;
+       color:rgb(61, 61, 61);
+       cursor: pointer;
+   }   
+
+   .buttons-input:hover {
+       border: 2px rgb(211, 211, 211) solid;
+   }
+   
+   .language p:hover {
+       text-decoration: underline rgb(32, 99, 186);
+   }
+
+   .main-section p:nth-child(6){
+       margin-top: 1.5rem;
+   }
+
+   .ubicacion p {
+       padding: 1rem;
+       font-size: 1.6rem;
+       font-weight: bold;
+       color: rgb(141, 137, 137);
+   }
+
+   .tema {
+       display: flex;
+       justify-content: space-evenly;
+   }
+
+   .tema p {
+       font-size: 1.3rem;
+       color: rgb(141, 137, 137);
+       font-weight: bold;
+   }
+
+   .priv {
+       display: flex;
+       justify-content: space-evenly
+   }
+
+   .priv p {
+        font-size: 1.3rem;
+        color: rgb(141, 137, 137);
+        font-weight: bold;
+   }
+
+   .link-icons {
+        font-size: 1.3rem;
+        color: rgb(141, 137, 137);
+        font-weight: bold;
+   }
+
+   .link-icons p {
+       padding-right: 4rem;
+   }
+}
