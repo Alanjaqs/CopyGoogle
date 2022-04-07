@@ -1,1 +1,1 @@
-# Creando la página de buscador de Google 
+# Página del buscador de Google (usando Flexbox)
